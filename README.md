@@ -14,14 +14,16 @@ Emulator set up
 
 1. On VSCode open `functions/src/index.ts` file, put a breakpoint on `const response = "1";` right before `console.log("onCall - after breakpoint");`
 2. Run `cd functions`
-3. Run `npm run build && firebase emulators:start --inspect-functions --project demo-project`
-4. Attach the debugger by clicking the "Run and Debug" tab on the side of VSCode, then click the play button
+3. Run `npm install`
+4. Run `npm run build && firebase emulators:start --inspect-functions --project demo-project`
+5. Attach the debugger by clicking the "Run and Debug" tab on the side of VSCode, then click the play button
    1. Console log should show `> Debugger attached.`
 
 Make a call to the functions (separate terminal)
 
 1. Run `cd app`
-2. Run `node .`
+2. Run `npm install`
+3. Run `node .`
 
 ### Emulator Output
 
