@@ -2,10 +2,10 @@
 
 ### Notes
 
-Use Node v20.x.x.
-Reproduced the issue using Node v20.2.0
-firebase-tools: v12.4.0
-platform: macOS
+Reproduced the issue using Node v20.2.0 and v20.0.0
+Node: either v20.2.0 or v20.0.0\
+firebase-tools: v12.4.0\
+platform: macOS\
 
 ### Steps to reproduce
 
