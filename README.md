@@ -23,7 +23,7 @@ Make a call to the functions (separate terminal)
 1. Run `cd app`
 2. Run `node .`
 
-### Output
+### Emulator Output
 
 ```
 i  Your function timed out after ~undefineds. To configure this timeout, see
